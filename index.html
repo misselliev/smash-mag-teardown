@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    html body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-bar-logo {
+      width: 223px !important;
+      height: 81px !important;
+    }
+
+    .nav-bar {
+      background: gray;
+      padding: 21.6px 0 21.6px 0;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-bar-btn {
+      width: 171px;
+      height: 113px;
+      background: #FFF;
+      border: 1px solid;
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    .nav-bar-search {
+      width: 130px !important;
+      height: 53px !important;
+    }
+     /* LATEST ARTICLE */
+
+    .latest {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    .latest-article {
+      width: 50%;
+      height: 794px;
+      background: red;
+    }
+
+    .latest div:first-child {
+      background: black;
+    }
+  
+    .latest div:last-child {
+      background: black;
+    }
+
+  </style>
+  <div class="nav-bar">
+    <div class="nav-bar-btn nav-bar-logo"></div>
+    <div class="nav-bar-btn"></div>
+    <div class="nav-bar-btn"></div>
+    <div class="nav-bar-btn"></div>
+    <div class="nav-bar-btn"></div>
+    <div class="nav-bar-btn"></div>
+    <div class="nav-bar-btn  nav-bar-search"></div>
+  </div>
+  <div class="latest">
+    <div class="latest-article"></div>
+    <div class="latest-article"></div>
+    <div class="latest-article"></div>
+    <div class="latest-article"></div>
+  </div>
+</body>
+</html>
