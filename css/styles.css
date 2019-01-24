@@ -117,6 +117,18 @@ html body {
   padding-top: 220px;
 }
 
+.latest div:nth-child(3) {
+  width: 49.9%;
+  height: 565px;
+  padding-top: 0;
+}
+
+.latest div:nth-child(4) {
+  width: 49.9%;
+  height: 565px;
+  padding-top: 0;
+}
+
 .latest-article .latest-photo {
   font-size: 5em;
   font-family: 'Open Sans', sans-serif;
@@ -161,7 +173,7 @@ html body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  background: rgb(35, 36, 38);
+  background: #07090D;
   padding: 30px 0 10px 0;
 }
 
@@ -211,15 +223,25 @@ html body {
   flex-flow: row nowrap;
   width: 100%;
   height: 750px;
-  background: rgb(242, 242, 242);
+  background: #07090D;
   justify-content: center;
+  padding-top: 40px;
+}
+
+.advertisement-2, .advertisement-1 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .advertisement-1 {
-  height: 100%;
+  height: 288px;
   width: 398.8px;
-  padding: 0 21.6px 0 21.6px;
+  margin-right:21.6px;
   margin-bottom: 25.2px;
+  margin-top: 40px;
+  background: #888C8C;
+  border-radius: 15px;
 }
 
 .advertisement-2 {
@@ -227,6 +249,40 @@ html body {
   width: 839.8px;
   padding: 0 21.6px 0 21.6px;
   margin-bottom: 75px;
+  background: #BDBFBF;
+  border-radius: 15px;
+}
+
+.advertisement-text1 {
+  font-size: 2.8em !important;
+  color: #232426;
+  padding-top: 50px;
+}
+
+.advertisement-img {
+  font-size: 11em;
+  color: #888C8C;
+}
+
+.advertisement-text2 {
+  font-size: 4em;
+  color: #07090D;
+}
+
+.ad-btn1 {
+  width: 131px;
+  height: 47px;
+  background: #F2F2F2;
+  border-radius: 3px;
+  margin-top: 100px;
+}
+
+.ad-btn2 {
+  width: 224px;
+  height: 50px;
+  background: #07090D;
+  border-radius: 3px;
+  margin-top: 300px;
 }
 
 .see-latest {
