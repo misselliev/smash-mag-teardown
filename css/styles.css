@@ -163,6 +163,8 @@ html body {
   padding-left: 5vw;
   padding-top: 145px;
   color: #232426;
+  display: flex;
+  align-self: flex-end;
 }
 
 /*SECOND ARTICLE ROW*/

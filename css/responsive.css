@@ -5,23 +5,38 @@
     flex-flow: column wrap;
     align-content: center;
   }
-
+  
   .latest-article {
     width: 100%;
     height: auto;
     background: #F2F2F2;
     padding-top: 220px;
   }
-
-  .latest div:nth-child(3) {
+  
+  .latest div:nth-child(2) {
     width: 100%;
     height: auto;
     padding-top: 0;
   }
 
+  .latest div:nth-child(3) {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    background: rgb(235, 235, 235);
+  }
+  
   .latest div:nth-child(4) {
     width: 100%;
     height: auto;
     padding-top: 0;
+    background: #F2F2F2;
+  }
+  
+  .latest-arrow i {
+    font-size: 3em;
+    padding-left: 5vw;
+    padding-top: 35px;
+    color: #232426;  
   }
 }
