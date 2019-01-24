@@ -1,5 +1,24 @@
 /* LATEST ARTICLE */
 @media only screen and (max-width: 720px) {
+  /*LATEST ARTICLE*/
+  #tag-center {
+    position: absolute;
+    top: 48px;
+  }
+  .nav-bar{
+    display: none;
+  }
+  #tag1 {
+    font-family: 'Concert One', cursive;
+    font-size: 2.5em;
+    position: relative;
+    background: #07090D;
+    color: #F2F2F2;
+    margin: 0 5px 0 5px;
+    left: 30vw;
+  }
+  
+
   .latest {
     display: flex;
     flex-flow: column wrap;
@@ -39,4 +58,121 @@
     padding-top: 35px;
     color: #232426;  
   }
+
+  /*ARTICLE ROW*/
+  .article-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    background: #07090D;
+    padding: 30px 0 10px 0;
+  }
+
+  .article {
+    display: flex;
+    flex-flow: column nowrap;
+    width: auto;
+    height: 100%;
+  }
+
+  .article-date {
+    color: rgb(100, 100, 100);
+    font-size: .8em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5vw;
+  }
+  
+  .article-title {
+    color: rgb(235, 235, 235);
+    padding-bottom: 40px;
+    font-size: 2.5em;
+    line-height: 35px;
+    padding-left: 5vw;
+  }
+  
+  .article-autor {
+    color: rgb(189, 191, 191);
+    padding-bottom: 36px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 5vw;
+  }
+  
+  .article-text {
+    color: rgb(136, 140, 140);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+    padding-left: 5vw;
+  }
+  
+  .article-arrow i {
+    font-size: 2.5em;
+    padding-top: 0;
+    color: rgb(136, 140, 140);
+    padding-left: 5vw;
+  }
+  #advertisement {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: auto;
+    background: #07090D;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .advertisement-2, .advertisement-1 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  
+  .advertisement-1 {
+    height: 288px;
+    width: 398.8px;
+    margin-right:21.6px;
+    margin-bottom: 25.2px;
+    margin-top: 40px;
+    background: #888C8C;
+    border-radius: 15px;
+  }
+  
+  .advertisement-2 {
+    display: none;
+  }
+  
+  .advertisement-text1 {
+    font-size: 2.8em !important;
+    color: #232426;
+    padding-top: 50px;
+  }
+  
+  .advertisement-img {
+    font-size: 11em;
+    color: #888C8C;
+  }
+  
+  .advertisement-text2 {
+    font-size: 4em;
+    color: #07090D;
+  }
+  
+  .ad-btn1 {
+    width: 131px;
+    height: 47px;
+    background: #F2F2F2;
+    border-radius: 3px;
+    margin-top: 100px;
+  }
+  
+  .ad-btn2 {
+    width: 224px;
+    height: 50px;
+    background: #07090D;
+    border-radius: 3px;
+    margin-top: 0;
+  }
+  
 }
