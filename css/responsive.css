@@ -1,0 +1,27 @@
+/* LATEST ARTICLE */
+@media only screen and (max-width: 720px) {
+  .latest {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+  }
+
+  .latest-article {
+    width: 100%;
+    height: auto;
+    background: #F2F2F2;
+    padding-top: 220px;
+  }
+
+  .latest div:nth-child(3) {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+
+  .latest div:nth-child(4) {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+}
