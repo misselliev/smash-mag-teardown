@@ -599,8 +599,8 @@ html body {
   height: auto;
   font-family: 'Open Sans', sans-serif;
   align-self: center;
-  justify-content: center;
-  justify-items: center;
+  /* justify-content: center; */
+  /* justify-items: center; */
   padding: 60px 0 60px -30px;
 }
 
@@ -762,7 +762,6 @@ footer {
   font-size: 10em;
   width: auto;
   height: 70px;
-  width: 30px;
   color:#BDBFBF;
 }
 
