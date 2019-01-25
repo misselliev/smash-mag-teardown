@@ -497,6 +497,8 @@ html body {
 footer {
   width: 100%;
   height: auto;
+  background: #888C8C;
+  color: #232426;
 }
 
 .browse {
@@ -508,6 +510,7 @@ footer {
   margin-left: auto;
   width: 1136px;
   height: 36px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .topic-links {
@@ -515,17 +518,19 @@ footer {
   height: 268px;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid orange;
-  overflow: hidden;
+  display: flex;
+  margin-bottom: 36px;
+  color: #07090D;
 }
 
 .links {
+  list-style-type: circle;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 1.5em;
   width: 247px;
   height: 31px;
-  display: flex;
+  display: inline-block;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
@@ -540,18 +545,58 @@ footer {
   align-items: center;
 }
 
+.footer-notes {
+  margin-bottom: 30px;
+}
+
+.notes:first-child {
+  font-style: italic;
+}
+
 .footer-links {
-  width: 518px;
-  height: 90px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   flex-flow: row nowrap;
   align-content: center;
   align-items: center;
+  margin-top: 0;
+}
+
+.footer-links ul {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bottom-links {
-  display: flex;
-  background: pink;
+  display: inline-block;
+  justify-content: center;
+  text-decoration: underline;
 }
+
+.end {
+  margin-bottom: 40px;
+}
+
+.last-section {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  /* background: purple; */
+
+}
+
+.footer-img {
+  font-size: 10em;
+  width: auto;
+  height: 70px;
+  width: 30px;
+  color:#BDBFBF;
+}
+
