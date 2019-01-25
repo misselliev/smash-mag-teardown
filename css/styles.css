@@ -371,14 +371,6 @@ html body {
   height: 834px;
 }
 
-/* LONELY ART */
-
-.ad-lonely-art {
-  width: 100%;
-  height: 300px;
-  background: #232426;
-}
-
 /* COMMUNITY LINKS */
 
 .community-links {
@@ -424,4 +416,154 @@ html body {
   height: 204px;
   line-height: 1.5em;
   color: #BDBFBF;
+}
+
+/* COMMUNITY ARTICLES */
+
+.com-article {
+  width: 100%;
+  height: auto;
+  background: #07090D;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.com-art {
+  width: 45%;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 20px;
+}
+
+.com-photo {
+  width: 20%;
+  height: auto;
+  font-size: 6.1em;
+  color: #F2F2F2;
+}
+
+.com-content {
+  width: 80%;
+  height: auto;
+}
+
+.com-right {
+  padding-top: 30px;
+}
+
+.com-name {
+  font-family: 'Concert One', cursive;
+  font-size: 1.7em;
+  color: #BDBFBF;
+}
+
+.com-title {
+  font-family: 'Concert One', cursive;
+  font-size: 2em;
+  color: #F2F2F2;
+}
+
+.com-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  color: #888c8c;
+}
+
+/* CURATED LINKS */
+
+.curated-post {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background: #07090D;
+}
+
+.curated-box {
+  width: 29%;
+  height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 20px 30px 0 5px;
+  align-content: flex-start;
+}
+
+.curated-small {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 1.2em;
+  color: #303030;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.curated-title {
+  font-family: 'Open Sans', cursive;
+  font-size: 1.9em;
+  color: #F2F2F2;
+  text-transform: capitalize;
+}
+
+.curated-links {
+  padding-top: 15px;
+}
+
+.curated-links li {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 1.8em;
+  color: #BDBFBF;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+.curated-ad {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 20px 30px 0 5px;
+  justify-content: center;
+  background: #F2F2F2;
+}
+
+.curated-ad-title {
+  font-family: 'Concert One', cursive;
+  font-size: 3em;
+  color: #07090D;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.curated-ad-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+  color: #888C8C;
+  margin: 30px 80px 30px 80px;
+  text-align: center;
+}
+
+.curated-ad-image {
+  margin-top: -100px;
+  font-size: 40em;
+}
+
+.curated-ad-btn {
+  width: 420px;
+  height: 62px;
+  border-radius: 15px;
+  background: #07090D;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.curated-ad-small {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+  color: #BDBFBF;
+  margin: 30px 33% 30px 33%;
+  text-align: center;
+  margin-bottom: 25px;
 }
