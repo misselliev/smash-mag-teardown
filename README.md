@@ -15,7 +15,8 @@ The aim is to create a grayscale heat map of the website that indicates which el
 
 ## Live demo
 
-You can visit our project live [here](https://rawcdn.githack.com/) ///To be updated
+You can visit our project live [here](https://rawcdn.githack.com/misselliev/smash-mag-teardown/bd42c799c92be1e00929056c6011499727481af7/index.html) 
+
 
 ## Useful links
 Taken from [The  Odin  Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown).
